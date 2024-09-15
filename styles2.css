@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0e7da;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header Styles */
+.header {
+    background-color: #ffccff;
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.intro {
+    background-color: #ffccff;
+    padding: 10px;
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Navigation Styles */
+.nav {
+    background-color: #ccd9ff;
+    padding: 10px 0;
+}
+
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: #ff99cc;
+}
+
+/* Section Styles */
+.section {
+    background-color: #fff4e6;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.about p, .skills p, .projects ul, .resume p, .contact p {
+    margin: 0;
+    padding: 10px 20px;
+}
+
+/* Projects section list styling */
+.projects ul {
+    list-style: disc;
+    padding-left: 40px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #ccd9ff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
